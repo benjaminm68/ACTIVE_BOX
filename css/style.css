@@ -1,0 +1,454 @@
+*{
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/*
+   HEADER
+            */
+
+header{
+    background: url(../images/banner.jpg);
+    height: 768px;
+}
+
+.content{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid transparent;
+}
+
+.topheader{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2em 0em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid white;
+}
+
+.topheader a{
+    text-decoration: none;
+    color: white;
+}
+
+.topheader figure{
+    margin: 0;
+}
+
+nav a{
+    padding: 1em;
+}
+
+.texte{
+    text-align: center;
+}
+
+.texte h2{
+    margin: 1.5em 1em 1em;
+    font-size: 4em;
+    color: white;
+}
+
+.texte p{
+    margin: 0.5em 6em 4em;
+    color: white;
+    font-size: 22px;
+}
+
+.texte a{
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #e84545;
+}
+
+/*
+   SECTION INFOS
+                 */
+.infos h5{
+    font-weight: 800;
+    text-align: center;
+}
+
+.infos p{
+    color: grey;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8em 0em 8em 0em;
+    width: 100%;
+}
+
+.art_1,.art_2,.art_3,.art_4,.art_5,.art_6{
+    width: 30%;
+    padding: 1em;
+}
+
+.infos .fas{
+    display: inherit!important;
+    color: #e84545;
+    text-align: center;
+    font-size: 75px;
+}
+
+/*
+   SECTION PORTFOLIO
+                    */
+.portfolio {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work_1,.work_2,.work_3,.work_4,.work_5,.work_6,.work_7,.work_8{
+    position: relative;
+    width: 25%;
+    padding: 0px 4px 0px 0px;
+}
+
+.portfolio img{
+    width: 100%;
+}
+
+/*
+   SECTION TEAM
+                */
+
+.team{
+    display: flex;
+    justify-content: center;
+    margin: 8em 0em 8em 1.5em;
+}
+
+.team p{
+    color: grey;
+}
+
+.box_1,.box_2,.box_3,.box_4{
+    width: 20%;
+    margin: 0em 2em 0em 0em;
+}
+
+.team img{
+    width: 100%;
+}
+.team .fas, .team .fab{
+    padding: 7px;
+    color: rgba(128, 128, 128, 0.589);
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    border-radius: 2px;
+}
+
+.team figcaption{
+    font-size: 22px;
+    margin: 1em 0em 0.5em 0em;
+}
+
+.team span{
+    color: #e84545;
+    font-size: 12px;
+}
+
+/*
+   SECTION TESTIMONIALS
+                        */
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    background-color: rgb(95, 0, 95);
+}
+
+.testimonial blockquote{
+    margin: 5em 5em 1em 5em;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testimonial p{
+    color: rgba(255, 255, 255, 0.788);
+    margin: 0em 5em 0em 10em;
+    font-size: 12px;
+    font-weight: 800;
+}
+.left, .right{
+    width: 50%;
+}
+
+.left img{
+    width: 100%;
+    margin: 0;
+}
+
+/*
+   SECTION DOWNLOAD
+                    */
+
+.download{
+    margin: 8em 0em 8em 0em;
+    text-align: center;
+}
+
+.download h3{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.download p{
+    margin-bottom: 3em;
+    font-size: 18px;
+}
+
+.download a{
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #e84545;
+}
+
+/*
+   SECTION ABOUT
+                */
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 4em 0em;
+    background-color: #3a3e64;
+}
+
+.about p{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.location, .social, .activebox{
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.social .fab, .social .fas{
+    padding: 7px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+/*
+    FOOTER
+            */
+
+footer{
+    padding: 1em 0em;
+    text-align: center;
+    margin: 0;
+    background-color: #313454;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #e84545;
+}
+
+/*
+   HOVER BTN
+            */
+
+.btn:hover{
+    background-color: #ec2b2b;
+}
+            
+.team i:hover{
+    background-color: #e84545;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #e84545;
+}
+            
+.about i:hover{
+    background-color: #e84545;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #e84545;
+}
+            
+/*
+    HOVER PORTFOLIO
+                    */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98%;
+    width: 99%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e8454598;
+}
+
+.hover:hover .overlay{
+    opacity: 1;
+}
+
+.hover p:first-child{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover p:last-child{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* MENU BURGER */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+@keyframes checked-anim {
+    50% {
+        width: 3000px;
+        height: 3000px;
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+@keyframes not-checked-anim {
+    0% {
+        width: 3000px;
+        height: 3000px;
+    }
+}
+li,li>a {
+    margin: 75px 0 -55px 0;
+    color: #03A9F4;
+    font: 14pt "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    outline: 0;
+    display: none;
+}
+li {
+    width: 230px;
+    text-indent: 56px;}
+.menuhidden li a:focus {
+    display: block;
+    color: #333;
+    background-color: #eee;
+    transition: all .5s;
+}
+
+#trigger, #burger, #burger:before, #burger:after {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background: #03A9F4;
+    width: 30px;
+    height: 5px;
+    transition: .2s ease;
+    cursor: pointer;
+    z-index: 1;
+}
+#trigger {
+    height: 25px;
+    background: none;
+}
+#burger:before {
+    content: " ";
+    top: 10px;
+    left: 0;
+}
+#burger:after {
+    content: " ";
+    top: 20px;
+    left: 0;
+}
+#menu-toggle:checked + #trigger + #burger {
+    top: 35px;
+    transform: rotate(180deg);
+    transition: transform .2s ease;
+}
+
+#menu-toggle:checked + #trigger + #burger:before {
+    width: 20px;
+    top: -2px;
+    left: 18px;
+    transform: rotate(45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu-toggle:checked + #trigger + #burger:after {
+    width: 20px;
+    top: 2px;
+    left: 18px;
+    transform: rotate(-45deg) translateX(-5px);
+    transition: transform .2s ease;
+}
+#menu {
+    position: absolute;
+    margin: 0; padding: 0;
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    animation: not-checked-anim .2s both;
+    transition: .2s;
+}
+#menu-toggle:checked + #trigger + #burger + #menu {
+    animation: checked-anim 1s ease both;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    display: none;
+}
+
+.menuhidden{
+    display: none;
+}
